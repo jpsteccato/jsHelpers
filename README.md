@@ -1,12 +1,12 @@
 # jsHelpers.js by steech (joe steccato)
 
-several Max-Javascript helper function:
+several Max-Javascript helper functions:
 
-## parseAttributes
+### parseAttributes
 Parse jsarguments (ie @bgcolor) into a JSON object of key-value pairs
 
-## parseColor
+### parseColor
 Parse colors from many formats into RGBa values
 
-## console.log / console.error
+### console.log / console.error
 Mimics behavior of Javascript's "console" functions
