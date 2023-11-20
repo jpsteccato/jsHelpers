@@ -2,7 +2,7 @@
 * @Author: josephsteccato
 * @Date:   2023-09-26 23:53:43
 * @Last Modified by:   josephsteccato
-* @Last Modified time: 2023-09-27 13:38:10
+* @Last Modified time: 2023-11-17 14:19:53
 	
 	jsHelpers.js
 		by steech (joe steccato)
@@ -56,7 +56,7 @@ exports.parseColor = function(input) {
     }
 
     // Hex format
-    if (/^([a-fA-F0-9]{3}|[a-fA-F0-9]{6})$/.test(input)) {
+    if (/^#?([a-fA-F0-9]{3}|[a-fA-F0-9]{6})$/.test(input)) {
         if (input.length === 3) {
             var r = parseInt(input.charAt(0) + input.charAt(0), 16) / 255.0;
             var g = parseInt(input.charAt(1) + input.charAt(1), 16) / 255.0;
